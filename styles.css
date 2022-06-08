@@ -1,0 +1,33 @@
+.auth{
+	border:4px dotted black;
+	padding: 4px;
+	background: #f0f0e1;
+}
+fieldset{
+	width: 60%;
+	margin: 10px
+}
+.form__input{
+	width: 10em;
+	margin: 3px;
+}
+.form__input--error{
+	background: red;
+}
+
+label{
+	background-color: #c1c1c1;
+	font-family: monospace;
+}
+.form__button{
+	margin: 10px;
+}
+.output{
+	display:none;
+	margin-top: 15px;
+	padding: 30px;
+	border: 2px solid black;
+}
+.output__username--bold, .output__password--bold{
+	font-weight: 600;
+}
